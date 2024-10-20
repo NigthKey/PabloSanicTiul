@@ -11,7 +11,18 @@
             background-color: #f0f0f0;
         }
         .hero {
-            background-color: #007BFF; /* Color azul */
+            background-image: url('https://humanidades.com/wp-content/uploads/2019/02/cine-5-e1585960007845.jpg'), 
+                              url('https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__0ab5c421-f24f-4231-a885-2eb10e9842dd&w=3840&q=75'), 
+                              url('https://35mm.es/wp-content/uploads/2021/06/lenguaje-cinematografico.jpg'),
+                              url('https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__ea08e63a-340d-403f-977c-5d18bdd05ef9&w=3840&q=75'),
+                              url('https://cards.algoreducation.com/_next/image?url=https%3A%2F%2Ffiles.algoreducation.com%2Fproduction-ts%2F__S3__4a448308-e572-4391-958c-5c19886cb74b&w=3840&q=75'),
+                              url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXJFKAW8NsYCK4zM1ZAagCZ4qWWYvXShb5g&s'),
+                              url('https://observatorio.uartes.edu.ec/wp-content/uploads/sites/19/2023/01/Cine-foto.jpg'),
+                              url('https://lideresmexicanos.com/wp-content/uploads/2022/03/SetdeCine.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
             color: white;
             display: flex;
             flex-direction: column;
@@ -30,18 +41,23 @@
         }
         .button-container {
             margin-top: 20px;
+            display: flex;
+            flex-direction: column; /* Disposición vertical */
+            align-items: center; /* Centra los botones */
         }
         .button {
             background-color: white; /* Color del botón */
             color: #007BFF; /* Color del texto */
             border: none;
             padding: 15px 20px;
-            margin: 5px;
+            margin: 10px 0; /* Espacio vertical entre botones */
             border-radius: 5px;
             cursor: pointer;
             font-size: 1.2em;
             text-decoration: none; /* Quitar subrayado */
             transition: background-color 0.3s, color 0.3s; /* Transición suave */
+            width: 80%; /* Ancho del botón */
+            max-width: 300px; /* Ancho máximo del botón */
         }
         .button:hover {
             background-color: #FAEBD7; /* Cambia a blanco hueso al pasar el ratón */
@@ -106,4 +122,3 @@
     </div>
 </body>
 </html>
-
